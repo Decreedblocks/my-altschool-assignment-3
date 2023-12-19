@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>WP Pusher Checkout</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div>
+        <img src="./images/wppusher-logo.png" alt="wppusher logo">
+      </div>
+
+      <ul>
+        <!-- Navigation Links -->
+        <li>
+          <a href="#">download</a>
+        </li>
+
+        <li>
+          <a href="#">learn more</a>
+        </li>
+
+        <li>
+          <a href="#">pricing</a>
+        </li>
+
+        <li>
+          <a href="#">help</a>
+        </li>
+
+        <button>Account</button>
+      </ul>
+    </nav>
+  </header>
+   <!-- Checkout Section -->
+  <section id="checkoutwrap">
+    <section class="checkout-container">
+      <h2>Checkout</h2>
+
+       <!-- Basic Information Section -->
+      <section class="basic-info-section">
+        <div class="step">
+          <div class="stepNumber">1</div>
+          <h4>Your Basic Information</h4>
+        </div>
+
+        <div class="input-container">
+          <div class="firstinput-box">
+            <label for="#">first name</label>
+            <input type="text" placeholder="Jane" >
+          </div>
+
+          <div class="firstinput-box">
+            <label for="#">last name</label>
+            <input type="text" placeholder="Doe" >
+          </div>
+        </div>
+
+        <div class="input-container">
+          <div class="secondinput-box">
+            <label for="#">email</label>
+            <input type="email" class="long-width" placeholder="janedoe@example.com">
+          </div>
+        </div>
+      </section>
+      
+      <!-- Payment Information Section -->
+      <section class="basic-info-section">
+        <div class="step">
+          <div class="stepNumber">2</div>
+          <h4>Your Payment Information</h4>
+        </div>
+
+        <section>
+          <div class="input-container">
+            <div class="joindiv">
+              <label for="#">Credit Card</label>
+              <div class="joininput">
+                <input type="text" placeholder="Card Number" pattern="[0-9]*" class="first">
+                <input type="text" placeholder="MM/YY" pattern="[0-9]*" class="second">
+                <input type="text" placeholder="CVC" class="third" pattern="[0-9]*">
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Bottom Section -->
+      <section class="bottom-section">
+        <button>Buy WP Pusher</button>
+
+        <div class="help-section">
+          <img src="./images/question.svg" alt="question">
+          <p><strong>Need any help? </strong> Don’t hesitate to <span>contact</span> <br> support!</p>
+        </div>
+  
+        <div class="stripe-section">
+          <img src="./images/stripe.svg" alt="stripe">
+        </div>
+      </section>
+    </section>
+
+     <!-- Details Wrapper Section -->
+    <section class="details-wrapper">
+      <h3>Freelancer</h3>
+      <div class="amount">
+        <p class="first-paragraph">$</p>
+        <h1>99</h1>
+        <p class="second-paragraph">/year</p>
+      </div>
+
+      <!-- Feature List Section -->
+      <p>Automatically renews after 1 <br> year</p>
+      <section class="featurelist">
+        <div>
+          <img src="./images/check.svg" alt="check">
+          <p>Use on 5 client sites</p>
+        </div>
+        <div>
+          <img src="./images/check.svg" alt="check">
+          <p>Private repositories</p>
+        </div>
+        <div>
+          <img src="./images/check.svg" alt="check">
+          <p>Email support</p>
+        </div>
+      </section>
+
+      <!-- Agency Plan Section -->
+      <div class="agencyplan-section">
+        <p>Need <strong>20</strong> client sites? </p>
+        <h4>Switch to the <i>Agency</i> plan.</h4>
+      </div>
+      <div class="line"></div>
+
+       <!-- Review Section -->
+      <div class="review-section">
+        <p>
+          FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, 
+          and the customer support is awesome!
+        </p>
+      </div>
+
+      <!-- Profile Section -->
+      <div class="profile-section">
+        <div class="image-box">
+          <img src="./images/profile.png" alt="Kirk Beard">
+        </div>
+        <h3>Kirk Beard</h3>
+      </div>
+    </section>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2018 WP Pusher IVS  · <span>Terms of Service</span></p>
+  </footer>
+</body>
+</html>
